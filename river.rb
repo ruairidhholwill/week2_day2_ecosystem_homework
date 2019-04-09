@@ -10,7 +10,5 @@ class River
   def fish_population_count()
     return @fish_population.length
   end
-
-
-
+  
 end

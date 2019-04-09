@@ -35,9 +35,3 @@ class BearTest < MiniTest::Test
     assert_equal(2, @bear1.bear_belly_count)
   end
 end
-
-
-# def test_bus_pick_up
-#     @bus1.adding_queue(@bus_stop)
-#     assert_equal(3,@bus1.passenger_count)
-#   end
