@@ -13,6 +13,14 @@ class Bear
     return @belly_contents.length
   end
 
+  def add_a_fish(fish)
+    @belly_contents << fish
+  end
 
+  def add_a_fish_to_bear_belly_and_remove_from_river(river)
+    for fish in river.fish_population
+      add_a_fish(fish)
+    end
+  end
 
 end
